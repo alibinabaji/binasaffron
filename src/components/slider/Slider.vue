@@ -2,6 +2,15 @@
   import { register } from 'swiper/element/bundle';
   register();
   const spaceBetween = 10;
+
+  const images = [
+    {
+      src: '/src/assets/slider/binasaffron-slider-1.jpg'
+    },
+    {
+      src: '/src/assets/slider/binasaffron-slider-2.jpg'
+    }
+  ]
 </script>
 
 <template>
@@ -12,11 +21,8 @@
     :loop="true"
     :autoplay="true"
     >
-    <swiper-slide>
-      <img class="m-auto" alt="binasaffron" src="@/assets/slider/binasaffron-slider-1.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img class="m-auto"  alt="binasaffron" src="@/assets/slider/binasaffron-slider-2.jpg" />
+    <swiper-slide v-for="image in images">
+      <img class="m-auto" alt="binasaffron_slider" :src=image.src />
     </swiper-slide>
   </swiper-container>
 </template>
