@@ -4,7 +4,7 @@ import Slider from './components/slider/Slider.vue'
 import ProductGrid from './components/productGrid/ProductGrid.vue'
 import SectionTitle from './components/sectionTitle/SectionTitle.vue'
 import Posts from './components/mag/Posts.vue'
-
+import Footer from './components/footer/Footer.vue'
 </script>
 
 <template>
@@ -20,4 +20,5 @@ import Posts from './components/mag/Posts.vue'
       <h2>مجله زعفران بینا</h2>
     </SectionTitle>
     <Posts />
+    <Footer />
 </template>
