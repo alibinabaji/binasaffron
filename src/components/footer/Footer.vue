@@ -30,7 +30,7 @@ const openSamandehi = () => {
     </div>
     <div class="trust basis-full md:basis-1/4 p-4 flex">
         <img src="https://binasaffron.ir/wp-content/uploads/2021/07/binasaffron-e-namad.png" class="cursor-pointer" @click="(openEnamad)" alt="">
-        <img src="https://binasaffron.ir/wp-content/uploads/2021/07/binasaffron-samandehi.png" @click="(openSamandehi)" alt="">
+        <img src="https://binasaffron.ir/wp-content/uploads/2021/07/binasaffron-samandehi.png" class="cursor-pointer" @click="(openSamandehi)" alt="">
     </div>
   </div>
   <div class="copyRight py-3 bg-gray-200 text-center border-2 border-t-gray-300">
