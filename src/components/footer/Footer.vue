@@ -8,7 +8,7 @@ const openSamandehi = () => {
 </script>
 
 <template>
-  <div class="footer flex flex-wrap p-8 bg-gray-200">
+  <div class="footer text-sm flex flex-wrap p-8 bg-gray-200">
     <div class="contacUs grid basis-full  md:basis-1/4 p-4">
         <span>مشهد ، خیابان شیرازی ، بازار بزرگ غدیر ، طبقه +1 ، پلاک 17</span>
         <a href="tel:09152163991">09152163991</a>
@@ -33,7 +33,7 @@ const openSamandehi = () => {
         <img src="https://binasaffron.ir/wp-content/uploads/2021/07/binasaffron-samandehi.png" @click="(openSamandehi)" alt="">
     </div>
   </div>
-  <div class="copyRight py-3 bg-gray-200 text-center border-2 border-t-gray-300">
+  <div class="copyRight text-xs	 py-3 bg-gray-200 text-center border-2 border-t-gray-300">
     <span>© کلیه حقوق این وب سایت متعلق به شرکت فراوران زعفران بینا است.</span>
   </div>
 </template>
