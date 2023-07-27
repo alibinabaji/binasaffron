@@ -32,7 +32,7 @@ const props = defineProps({
 </script>
 <template>
     <div class="postsList flex flex-wrap" v-if="listPosts.length>0">
-      <div class="post h-auto basis-full  md:basis-1/4 text-center my-7 px-5" v-for="posts in listPosts.slice(0, 4)">
+      <div class="post h-96 basis-full  md:basis-1/4 text-center my-7 px-5" v-for="posts in listPosts.slice(0, 4)">
         <div class="h-full bg-white border border-gray-200 rounded-lg shadow">
             <a :href="posts.link">
                 <img class="rounded-t-lg" :src= "posts.yoast_head_json.og_image[0].url" alt="" />
