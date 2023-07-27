@@ -5,10 +5,10 @@
 
   const images = [
     {
-      src: '/src/assets/slider/binasaffron-slider-1.jpg'
+      src: 'wp-content/uploads/2022/11/binasaffron-slider-1.jpg'
     },
     {
-      src: '/src/assets/slider/binasaffron-slider-2.jpg'
+      src: 'wp-content/uploads/2022/11/binasaffron-slider-2.jpg'
     }
   ]
 </script>
@@ -22,7 +22,7 @@
     :autoplay="true"
     >
     <swiper-slide v-for="image in images">
-      <img class="m-auto" alt="binasaffron_slider" :src=image.src />
+      <img class="m-auto" alt="binasaffron_slider" :src="'https://binasaffron.ir/' +  image.src " />
     </swiper-slide>
   </swiper-container>
 </template>

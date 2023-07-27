@@ -12,8 +12,24 @@
   console.log(listPosts.value)
 })
  getData()
-</script>
+ import type { PropType } from "vue";
 
+export interface listPostsData {
+  yoast_head_json: any;
+  og_image: string;
+  description: string;
+  link: string;
+  title: any;
+  rendered: string
+  
+}
+
+const props = defineProps({
+  listPosts: {
+    type: Array as PropType<listPostsData[]>
+  }
+});
+</script>
 <template>
     <div class="postsList flex flex-wrap" v-if="listPosts.length>0">
       <div class="post h-auto basis-full  md:basis-1/4 text-center my-7 px-5" v-for="posts in listPosts.slice(0, 4)">
