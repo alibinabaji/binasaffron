@@ -8,19 +8,19 @@ const menuItem = [
   },
   {
     title: 'خرید زعفران',
-    link: '/'
+    link: '/product-category/saffron/'
   },
   {
     title: 'خرید جعبه هدیه زعفران',
-    link: '/'
+    link: '/product-category/gift-box/'
   },
   {
     title: 'مجله زعفران بینا',
-    link: '/'
+    link: '/mag/'
   },
   {
     title: 'تماس با ما',
-    link: '/about'
+    link: '/contact-us/'
   }
 ]
 
