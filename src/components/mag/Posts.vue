@@ -42,7 +42,7 @@ const props = defineProps({
                     <h5 class="mb-2 text-base text-2xl font-bold tracking-tight text-gray-900">{{posts.title.rendered}}</h5>
                 </a>
                 <p class="mb-3 text-sm font-normal text-gray-700">{{posts.yoast_head_json.description}}</p>
-                <a :href="posts.link" class="text-xs	inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-800 rounded-lg hover:bg-red-900 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a :href="posts.link" class="text-xs	inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-800 rounded-lg hover:bg-red-900">
                     ادامه مطلب
                 </a>
             </div>
