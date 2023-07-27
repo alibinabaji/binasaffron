@@ -28,7 +28,7 @@ const menuItem = [
 
 <template>
   <div class="menu text-sm border-b-2 border-inherit">
-    <nav class="flex justify-around max-w-[70%] my-4 mx-auto">
+    <nav class="hidden md:flex justify-around max-w-[70%] my-4 mx-auto">
         <RouterLink v-for="value in menuItem" :to="{path:value.link}">{{value.title}}</RouterLink>
     </nav>
   </div>
