@@ -1,29 +1,26 @@
 <script setup lang="ts">
-  import { ref, onMounted } from 'vue';
+  import { ref  } from 'vue';
   import LoadingGetPosys from "./LoadingGetPosys.vue";
-  import type { PropType } from "vue";
-  const listPosts = ref([]);
+  const listPosts = ref<listPostsData>(<any>[]);
+    export interface listPostsData {
+    yoast_head_json: any;
+    og_image: string;
+    description: string;
+    link: string;
+    title: any;
+    rendered: string;
+    length: number;
+    listPosts: [];
+    value: any
+    
+  }
 
   const props = defineProps<{
-  listPosts: listPostsData,
-  total: any
+  total: any,
 }>();
-  async function getData() {
-    const res = await fetch("https://binasaffron.ir/wp-json/wp/v2/posts?per_page="+ props.total);
-    const finalRes = await res.json();
-    listPosts.value = finalRes;
-  }
- getData()
-export interface listPostsData {
-  yoast_head_json: any;
-  og_image: string;
-  description: string;
-  link: string;
-  title: any;
-  rendered: string
-  
-}
-
+    fetch("https://binasaffron.ir/wp-json/wp/v2/posts?per_page="+ props.total)
+    .then(response => response.json())
+    .then(data => listPosts.value = data);
 
 </script>
 <template>
@@ -46,6 +43,6 @@ export interface listPostsData {
       </div>
     </div>
     <div class="flex flex-wrap" v-else>
-        <LoadingGetPosys  v-for="(item, index) in 4" :key="index" />
+        <LoadingGetPosys  v-for="posts in 4" />
     </div>
   </template>
