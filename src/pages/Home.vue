@@ -15,5 +15,5 @@ import Posts from '../components/mag/Posts.vue'
     <SectionTitle>
       <h2>مجله زعفران بینا</h2>
     </SectionTitle>
-    <Posts />
+    <Posts total="4"/>
 </template>

@@ -17,8 +17,8 @@ const openSamandehi = () => {
     <div class="importantLink basis-full  md:basis-1/4 p-4">
         <h4 class="font-bold">زعفران بینا</h4>
         <ul class="mt-4">
-            <li><a href="http://binasaffron.ir/mag/">مجله</a></li>
-            <li><a href="http://binasaffron.ir/contact-us/">تماس با ما</a></li>
+            <li><RouterLink to="/mag">مجله زعفران بینا</RouterLink></li>
+            <li><RouterLink to="/contact-us">تماس با ما</RouterLink></li>
         </ul>
     </div>
     <div class="categories basis-full  md:basis-1/4 p-4">
