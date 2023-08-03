@@ -24,8 +24,8 @@ const openSamandehi = () => {
     <div class="categories basis-full  md:basis-1/4 p-4">
         <span class="font-bold">دسته بندی محصولات</span>
         <ul class="mt-4">
-            <li><a href="https://binasaffron.ir/product-category/saffron/">خرید زعفران</a></li>
-            <li><a href="https://binasaffron.ir/product-category/gift-box/">خرید جعبه هدیه زعفران</a></li>
+          <li><RouterLink to="/product-category/saffron">خرید زعفران</RouterLink></li>
+          <li><RouterLink to="/product-category/gift-box">خرید جعبه هدیه زعفران</RouterLink></li>
         </ul>
     </div>
     <div class="trust basis-full md:basis-1/4 p-4 flex">

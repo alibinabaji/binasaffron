@@ -30,8 +30,8 @@ const menuItem = [
   <div class="menu text-sm border-b-2 border-inherit">
     <nav class="hidden md:flex justify-around max-w-[70%] my-4 mx-auto">
         <RouterLink to="/">صفحه نخست</RouterLink>
-        <a href="/product-category/saffron/">خرید زعفران</a>
-        <a href="/product-category/gift-box/">خرید جعبه هدیه زعفران</a>
+        <RouterLink to="/product-category/saffron">خرید زعفران</RouterLink>
+        <RouterLink to="/product-category/gift-box">خرید جعبه هدیه زعفران</RouterLink>
         <RouterLink to="/mag">مجله زعفران بینا</RouterLink>
         <RouterLink to="/contact-us">تماس با ما</RouterLink>
     </nav>

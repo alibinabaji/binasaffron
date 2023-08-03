@@ -3,6 +3,8 @@ import Slider from '../components/slider/Slider.vue'
 import ProductGrid from '../components/productGrid/ProductGrid.vue'
 import SectionTitle from '../components/sectionTitle/SectionTitle.vue'
 import Posts from '../components/mag/Posts.vue'
+import GiftBox from '../components/productGrid/GiftboxList.json';
+
 </script>
 
 <template>
@@ -11,7 +13,7 @@ import Posts from '../components/mag/Posts.vue'
     <SectionTitle>
       <h1>خرید جعبه هدیه زعفران</h1>
     </SectionTitle>
-    <ProductGrid />
+    <ProductGrid :ProductList="GiftBox" />
     <SectionTitle>
       <h2>مجله زعفران بینا</h2>
     </SectionTitle>
