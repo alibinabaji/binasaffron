@@ -4,6 +4,7 @@ import ContactUs from '../pages/ContactUs.vue'
 import Mag from '../pages/MagPosts.vue'
 import SaffronCategory from '../pages/SaffronCategory.vue'
 import GiftboxCategory from '../pages/GiftboxCategory.vue'
+import SingleProduct from '../pages/SingleProduct.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -31,6 +32,12 @@ const router = createRouter({
       path: '/product-category/gift-box/',
       name: 'Gift box',
       component: GiftboxCategory
+    },
+    {
+      path: '/product/:url/',
+      name: 'SingleProduct',
+      props: true,
+      component: SingleProduct
     },
   ]
 })
