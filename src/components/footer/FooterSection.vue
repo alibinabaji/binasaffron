@@ -17,7 +17,7 @@ const openSamandehi = () => {
     <div class="importantLink basis-full  md:basis-1/4 p-4">
         <h4 class="font-bold">زعفران بینا</h4>
         <ul class="mt-4">
-            <li><RouterLink to="/mag">مجله زعفران بینا</RouterLink></li>
+            <li><a href="https://binasaffron.ir/mag/">مجله زعفران بینا</a></li>
             <li><RouterLink to="/contact-us">تماس با ما</RouterLink></li>
         </ul>
     </div>
@@ -29,8 +29,8 @@ const openSamandehi = () => {
         </ul>
     </div>
     <div class="trust basis-full md:basis-1/4 p-4 flex">
-        <img src="https://binasaffron.ir/wp-content/uploads/2021/07/binasaffron-e-namad.png" class="cursor-pointer" @click="(openEnamad)" alt="">
-        <img src="https://binasaffron.ir/wp-content/uploads/2021/07/binasaffron-samandehi.png" @click="(openSamandehi)" alt="">
+        <img src="https://binasaffron.ir/mag/wp-content/uploads/2021/07/binasaffron-e-namad.png" class="cursor-pointer" @click="(openEnamad)" alt="">
+        <img src="https://binasaffron.ir/mag/wp-content/uploads/2021/07/binasaffron-samandehi.png" @click="(openSamandehi)" alt="">
     </div>
   </div>
   <div class="copyRight text-xs	 py-3 bg-gray-100 text-center border-2 border-t-gray-300">

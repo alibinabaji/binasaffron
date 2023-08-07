@@ -18,11 +18,11 @@ const router = createRouter({
       name: 'contactUs',
       component: ContactUs
     },
-    {
-      path: '/mag',
-      name: 'mag',
-      component: Mag
-    },
+    // {
+    //   path: '/mag',
+    //   name: 'mag',
+    //   component: Mag
+    // },
     {
       path: '/product-category/saffron/',
       name: 'saffron',

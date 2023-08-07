@@ -2,37 +2,37 @@
     {
         "name": "هل سبز بینا – 20 گرم",
         "price": "65000",
-        "img": "/wp-content/uploads/2022/09/cardamom-crystal-1.jpg",
+        "img": "mag/wp-content/uploads/2022/09/cardamom-crystal-1.jpg",
         "link": "هل-سبز-بینا-20-گرم"
     },
     {
         "name": "زعفران نگین بینا – یک مثقال",
         "price": "280000",
-        "img": "/wp-content/uploads/2021/03/negin-b-level.jpg",
+        "img": "mag/wp-content/uploads/2021/03/negin-b-level.jpg",
         "link": "زعفران-نگین-بینا"
     },
     {
         "name": "ریشه زعفران بینا – 4.6 گرم",
         "price": "45000",
-        "img": "/wp-content/uploads/2020/12/rishe-bina-1.jpg",
+        "img": "mag/wp-content/uploads/2020/12/rishe-bina-1.jpg",
         "link": "ریشه-زعفران-بینا-4-6-گرم"
     },
     {
         "name": "زعفران آذین بینا – 2 گرم",
         "price": "120000",
-        "img": "wp-content/uploads/2022/05/saffron-azin.jpg",
+        "img": "mag/wp-content/uploads/2022/05/saffron-azin.jpg",
         "link": "زعفران-آذین-بینا-2-گرم"
     },
     {
         "name": "زعفران قوطی تخت بینا – یک مثقال",
         "price": "270000",
-        "img": "/wp-content/uploads/2020/09/saffron-bina.jpg",
+        "img": "mag/wp-content/uploads/2020/09/saffron-bina.jpg",
         "link": "زعفران-قوطی-تخت-بینا-یک-مثقال"
     },
     {
         "name": "پک هدیه 2 خاتم زعفران و هل بینا",
         "price": "125000",
-        "img": "/wp-content/uploads/2022/05/saffron-khatam.jpg",
+        "img": "mag/wp-content/uploads/2022/05/saffron-khatam.jpg",
         "link": "زعفران-خاتم-بینا-2-گرم"
     }
 ]

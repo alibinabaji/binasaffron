@@ -5,10 +5,10 @@
 
   const images = [
     {
-      src: 'wp-content/uploads/2022/11/binasaffron-slider-1.jpg'
+      src: 'mag/wp-content/uploads/2022/11/binasaffron-slider-1.jpg'
     },
     {
-      src: 'wp-content/uploads/2022/11/binasaffron-slider-2.jpg'
+      src: 'mag/wp-content/uploads/2022/11/binasaffron-slider-2.jpg'
     }
   ]
 </script>

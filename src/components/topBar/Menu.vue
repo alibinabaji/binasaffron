@@ -32,7 +32,7 @@ const menuItem = [
         <RouterLink to="/">صفحه نخست</RouterLink>
         <RouterLink to="/product-category/saffron">خرید زعفران</RouterLink>
         <RouterLink to="/product-category/gift-box">خرید جعبه هدیه زعفران</RouterLink>
-        <RouterLink to="/mag">مجله زعفران بینا</RouterLink>
+        <a href="https://binasaffron.ir/mag/">مجله زعفران بینا</a>
         <RouterLink to="/contact-us">تماس با ما</RouterLink>
     </nav>
   </div>

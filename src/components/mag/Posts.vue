@@ -18,7 +18,7 @@
   const props = defineProps<{
   total: any,
 }>();
-    fetch("https://binasaffron.ir/wp-json/wp/v2/posts?per_page="+ props.total)
+    fetch("https://binasaffron.ir/mag/wp-json/wp/v2/posts?per_page="+ props.total)
     .then(response => response.json())
     .then(data => listPosts.value = data);
 
