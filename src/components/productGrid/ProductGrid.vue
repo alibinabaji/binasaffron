@@ -1,16 +1,8 @@
 <script setup lang="ts">
 const props = defineProps<{
-  ProductList: ProductListData,
+  ProductList: any,
 }>();
 
-export interface ProductListData {
-    img: String;
-    name: String;
-    price: number;
-    link: String;
-    product: any
-    
-  }
 </script>
 
 <template>
