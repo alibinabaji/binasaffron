@@ -5,7 +5,7 @@ import Giftbox from '../components/productGrid/GiftboxList.json'
 
 <template>
     <productGrid :ProductList="Giftbox"/>
-    <div class="description p-4 border border-inherit m-4 rounded-md shadow-md">
+    <div class="description p-4 border border-inherit m-4 rounded-md shadow-md text-slate-700 text-sm">
         <h1>خرید جعبه هدیه زعفران</h1>
         جعبه های هدیه زعفران بینا محصولات خلاقانه و فاخر زعفران بینا هستند که زعفران اصیل ایرانی با بسته بندی های شایسته و لوکس عرضه شده اند که خرید جعبه هدیه زعفران گزینه بسیار مناسبی برای هدایای سازمانی، منابع انسانی شرکت ها و اشخاص می باشند.
         <h2>جعبه‌های هدیه زعفران بینا برای چه مناسبت‌هایی مناسبند؟</h2>

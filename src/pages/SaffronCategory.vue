@@ -5,7 +5,7 @@ import Giftbox from '../components/productGrid/SaffronList.json'
 
 <template>
     <productGrid :ProductList="Giftbox"/>
-    <div class="description p-4 border border-inherit m-4 rounded-md shadow-md">
+    <div class="description p-4 border border-inherit m-4 rounded-md shadow-md text-slate-700 text-sm">
         <h1><strong>خرید زعفران</strong></h1>
         <h2>چند نوع زعفران داریم؟</h2>
         زعفران با توجه به نوع جدا شدن کلاله از گل و شیوه خشک کردن به 4 دسته کلی تقسیم می شود:

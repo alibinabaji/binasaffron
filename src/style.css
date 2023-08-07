@@ -13,3 +13,31 @@
     direction: rtl !important;
     font-family: IranYekan;
 }
+.description a{
+    color: #9e0404;
+}
+p{
+    margin-bottom: 20px;
+}
+.description h1, .description h2, .description h3, .description h4, .description h5 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+ul{
+    margin: 10px 0;
+    padding-right: 15px;
+    list-style: none;
+}
+li{
+    margin: 10px 0;
+    position: relative;
+}
+li::before{
+    position: absolute;  
+    right: -10px;
+    margin: 8px 0 0 -12px;    
+    width: 4px;
+    height: 4px;
+    background: #ccc;
+    content: "";
+}

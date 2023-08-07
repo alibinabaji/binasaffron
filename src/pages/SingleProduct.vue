@@ -111,7 +111,8 @@ case "زعفران-خاتم-بینا-2-گرم":
         <span class="flex-auto text-lg font-semibold text-red-900">
             توضیحات محصول
         </span>
-        <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200"></div>
-            <p v-html="product[b].description"></p>
-        </div>
+        <br/>
+        <div class="flex items-baseline mt-4 mb-3 pb-3 border-b border-slate-200"></div>
+            <p class="text-slate-700 text-sm" v-html="product[b].description"></p>
+    </div>
 </template>
