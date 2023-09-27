@@ -10,6 +10,7 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false"
   },
   "dependencies": {
+    "@vueuse/head": "^2.0.0",
     "axios": "^1.4.0",
     "swiper": "^10.0.3",
     "vue": "^3.3.4",

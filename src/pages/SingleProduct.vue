@@ -3,6 +3,9 @@ const props = defineProps<{
     url: any,
 }>();
 import product from "../components/productGrid/products.json"
+import { useHead } from '@vueuse/head'
+
+
 let b = 0
 switch (props.url) {
 case "جعبه-هدیه-2-گوهر-زعفران-و-هل-بینا":
@@ -60,6 +63,24 @@ case "زعفران-خاتم-بینا-2-گرم":
     b = 17
     break;
 }
+function htmlToPlainText(htmlString: string) {
+  const tempElement = document.createElement('div');
+  tempElement.innerHTML = htmlString;
+  return tempElement.textContent;
+}
+useHead({
+      // Can be static or computed
+      title: product[b].name,
+      meta: [
+        { name: 'description', content: htmlToPlainText(product[b].summarize) },
+        { name: 'product_name', content: product[b].name },
+        { property: 'og:image', content: "binasaffron.ir"+product[b].img },
+        { name: 'product_id', content: product[b].id.toString() },
+        { name: 'product_price', content: product[b].price.toString() },
+        { name: 'availability', content: "instock"  },
+        ],
+     
+    })
 </script>
 
 <template>
