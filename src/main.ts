@@ -1,13 +1,22 @@
-import './style.css'
+import './style.css';
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import { createHead } from '@vueuse/head';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faTwitter, faInstagram, faLinkedin, faWhatsapp, faTelegram } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import { createHead } from '@vueuse/head'
-const head = createHead()
+const head = createHead();
 
-const app = createApp(App)
+library.add(faTwitter, faInstagram, faLinkedin, faWhatsapp, faTelegram);
 
-app.use(router)
-app.use(head ); // Use the MetaManager
-app.mount('#app')
+const app = createApp(App);
+
+app.component('font-awesome-icon', FontAwesomeIcon);
+
+app.use(router);
+
+app.use(head);
+
+app.mount('#app');

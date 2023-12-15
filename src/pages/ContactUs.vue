@@ -1,3 +1,7 @@
+<script setup lang="ts">
+    import SocialMedia from '../components/socialmedia/SocialMedia.vue'
+</script>
+
 <template>
     <div class="contacUs grid m-4">
         <div class="mb-3 grid">
@@ -11,6 +15,10 @@
         <div class="mb-3 grid">
             <span class="text-xl mb-2">ایمیل:</span>
             <a href = "mailto: info@binasaffron.ir">info@binasaffron.ir</a>
+        </div>
+        <div class="mb-3 grid">
+            <span class="text-xl mb-2">شبکه های اجتماعی:</span>
+            <SocialMedia />
         </div>
     </div>
     <div class="m-4 h-80">

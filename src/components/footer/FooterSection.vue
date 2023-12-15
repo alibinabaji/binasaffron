@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import SocialMedia from '../socialmedia/SocialMedia.vue';
+
 const openEnamad = () => {
   window.open('https://trustseal.enamad.ir/?id=151181&Code=E8NdkFVVMVFU3cirkrut'); 
 }
@@ -11,8 +13,9 @@ const openSamandehi = () => {
   <div class="footer text-sm flex flex-wrap p-8 bg-gray-100">
     <div class="contacUs grid basis-full  md:basis-1/4 p-4">
         <span>مشهد ، خیابان شیرازی ، بازار بزرگ غدیر ، طبقه +1 ، پلاک 17</span>
-        <a href="tel:09152163991">09152163991</a>
-        <a href = "mailto: info@binasaffron.ir">info@binasaffron.ir</a>
+        <a href="tel:09152163991" class="font-bold my-2">09152163991</a>
+        <a href = "mailto: info@binasaffron.ir" class="my-2">info@binasaffron.ir</a>
+        <SocialMedia />
     </div>
     <div class="importantLink basis-full  md:basis-1/4 p-4">
         <h4 class="font-bold">زعفران بینا</h4>

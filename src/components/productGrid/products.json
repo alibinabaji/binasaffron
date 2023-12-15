@@ -2,7 +2,8 @@
     {
         "id": "BS110048",
         "name": "جعبه هدیه 2 گوهر زعفران و هل بینا",
-        "price": "155000",
+        "price": "185000",
+        "url": "جعبه-هدیه-2-گوهر-زعفران-و-هل-بینا",
         "img": "/mag/wp-content/uploads/2022/09/2-gohar-cardamom-saffron-1.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2022/09/2-gohar-cardamom-saffron-2.jpg",
@@ -10,14 +11,15 @@
             "/mag/wp-content/uploads/2022/09/cardamom-gohar.jpg"
         ],
         "summarize":
-        "<ul>\n \t<li>محتویات : 1 گرم زعفران، 5 گرم هل و هاون برنجی<\/li>\n \t<li>جنس بسته بندی : مخمل<\/li>\n \t<li><span class=\"p\" dir=\"rtl\">ابعاد محصول: <\/span><span class=\"p\" dir=\"rtl\">۱۳*۱۳*۵ سانتیمتر<\/span><\/li>\n \t<li>کد محصول : BS110048<\/li>\n<\/ul>",
+        "<ul>\n \t<li>محتویات : نیم گرم زعفران، 5 گرم هل و هاون برنجی<\/li>\n \t<li>جنس بسته بندی : مخمل<\/li>\n \t<li><span class=\"p\" dir=\"rtl\">ابعاد محصول: <\/span><span class=\"p\" dir=\"rtl\">۱۳*۱۳*۵ سانتیمتر<\/span><\/li>\n \t<li>کد محصول : BS110048<\/li>\n<\/ul>",
         "description":
         "<img class=\" wp-image-4648 m-auto my-4\" src=\"https://binasaffron.ir/mag/wp-content/uploads/2022/09/2-gohar.jpg\" alt=\"جعبه هدیه 2 گوهر زعفران و هل بینا\" width=\"475\" height=\"316\" />"
     },
     {
         "id": "BS110047",
         "name": "زعفران گوهر بینا – 1 گرم به همراه هاون",
-        "price": "190000",
+        "url": "زعفران-گوهر-بینا-1-گرم-به-همراه-هاون",
+        "price": "215000",
         "img": "/mag/wp-content/uploads/2022/09/2-gohar-saffron-gift-box-1.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2022/09/2-gohar-saffron-gift-box-2.jpg",
@@ -31,7 +33,8 @@
     {
         "id": "BS110031",
         "name": "پک هدیه 1 گرم خاتم زعفران بینا",
-        "price": "200000",
+        "url": "پک-هدیه-زعفران-بینا",
+        "price": "220000",
         "img": "/mag/wp-content/uploads/2020/09/2-gr-saffron-gift-box.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2020/09/2-gr-saffron-gift-box-2.jpg",
@@ -45,7 +48,8 @@
     {
         "id": "BS110030",
         "name": "پک هدیه 2 آذین زعفران و هل بینا",
-        "price": "230000",
+        "url": "پک-هدیه-زعفران-و-هل-بینا",
+        "price": "260000",
         "img": "/mag/wp-content/uploads/2020/09/2azin-saffron-cardamom.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2020/09/2azin-saffron-cardamom-2.jpg",
@@ -60,7 +64,8 @@
     {
         "id": "BS110043",
         "name": "زعفران هدیه آذین بینا – 2 گرم به همراه هاون",
-        "price": "295000",
+        "url": "زعفران-هدیه-آذین-بینا-2-گرم-به-همراه-هاو",
+        "price": "340000",
         "img": "/mag/wp-content/uploads/2022/05/2-azin-saffron-gift-box.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2022/05/2-azin-saffron-gift-box-2.jpg",
@@ -74,7 +79,8 @@
     {
         "id": "BS110035",
         "name": "پک هدیه 2 خاتم زعفران و هل بینا",
-        "price": "330000",
+        "url": "پک-هدیه-زعفران-خاتم-و-هل-بینا",
+        "price": "415000",
         "img": "/mag/wp-content/uploads/2020/11/saffron-cardamom-gift-box-1.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2020/11/saffron-cardamom-gift-box-2.jpg",
@@ -89,7 +95,8 @@
     {
         "id": "BS110041",
         "name": "پک هدیه تک خاتم هاون دار بینا",
-        "price": "345000",
+        "url": "پک-هدیه-تک-خاتم-هاون-دار-بینا",
+        "price": "400000",
         "img": "/mag/wp-content/uploads/2020/12/khatam-saffron-gift-box-.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2020/12/khatam-saffron-gift-box-2.jpg",
@@ -103,7 +110,8 @@
     {
         "id": "BS110036",
         "name": "پک هدیه 2 خاتم زرشک دار بینا",
-        "price": "395000",
+        "url": "پک-هدیه-2-خاتم-زرشک-دار-بینا",
+        "price": "465000",
         "img": "/mag/wp-content/uploads/2020/11/barberry-saffron-gift-box-1.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2020/11/barberry-saffron-gift-box-2.jpg",
@@ -119,7 +127,8 @@
     {
         "id": "BS110040",
         "name": "پک هدیه تک خاتم قوری دار بینا",
-        "price": "420000",
+        "url": "پک-هدیه-تک-خاتم-قوری-دار-بینا",
+        "price": "520000",
         "img": "/mag/wp-content/uploads/2020/12/quti-saffron-gift-box-1.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2020/12/quti-saffron-gift-box-2.jpg",
@@ -133,7 +142,8 @@
     {
         "id": "BS110046",
         "name": "زعفران هدیه 2 خاتم بینا – 4 گرم",
-        "price": "460000",
+        "url": "زعفران-هدیه-2-خاتم-بینا-4-گرم",
+        "price": "575000",
         "img": "/mag/wp-content/uploads/2022//05/2-saffron-khatam-giftbox-1.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2022/05/2-saffron-khatam-giftbox-2.jpg",
@@ -147,7 +157,8 @@
     {
         "id": "BS110034",
         "name": "پک هدیه 2 خاتم قوری دار بینا",
-        "price": "465000",
+        "url": "پک-هدیه-قوری-دار-زعفران-و-هل-بینا",
+        "price": "580000",
         "img": "/mag/wp-content/uploads/2020/11/quti-big-saffron-gift-box.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2020/11/quti-big-saffron-gift-box-2.jpg",
@@ -162,7 +173,8 @@
     {
         "id": "BS110045",
         "name": "زعفران هدیه خاتم قوری دار بینا – 4 گرم",
-        "price": "570000",
+        "url": "زعفران-هدیه-خاتم-قوری-دار-بینا-4-گرم",
+        "price": "730000",
         "img": "/mag/wp-content/uploads/2022/05/quti-big-2-saffron-gift.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2022/05/quti-big-2-saffron-gift-2.jpg",
@@ -176,7 +188,8 @@
     {
         "id": "1",
         "name": "هل سبز بینا – 20 گرم",
-        "price": "65000",
+        "url": "هل-سبز-بینا-20-گرم",
+        "price": "85000",
         "img": "/mag/wp-content/uploads/2022/09/cardamom-crystal-1.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2022/09/cardamom-crystal-2.jpg",
@@ -190,7 +203,8 @@
     {
         "id": "BS110002",
         "name": "زعفران نگین بینا – یک مثقال",
-        "price": "280000",
+        "url": "زعفران-نگین-بینا",
+        "price": "320000",
         "img": "/mag/wp-content/uploads/2021/03/negin-b-level.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2021/03/negin-b-level-2.jpg"
@@ -203,6 +217,7 @@
     {
         "id": "BS110039",
         "name": "ریشه زعفران بینا – 4.6 گرم",
+        "url": "ریشه-زعفران-بینا-4-6-گرم",
         "price": "45000",
         "img": "/mag/wp-content/uploads/2020/12/rishe-bina-1.jpg",
         "thumbnails":[
@@ -217,7 +232,8 @@
     {
         "id": "BS110019",
         "name": "زعفران آذین بینا – 2 گرم",
-        "price": "120000",
+        "url": "زعفران-آذین-بینا-2-گرم",
+        "price": "170000",
         "img": "mag/wp-content/uploads/2022/05/saffron-azin.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2020/09/super-negin-2-1.jpg"
@@ -230,7 +246,8 @@
     {
         "id": "BS110017",
         "name": "زعفران قوطی تخت بینا – یک مثقال",
-        "price": "270000",
+        "url": "زعفران-قوطی-تخت-بینا-یک-مثقال",
+        "price": "320000",
         "img": "/mag/wp-content/uploads/2020/09/saffron-bina.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2020/09/saffron-bina-1.jpg",
@@ -243,8 +260,9 @@
     },
     {
         "id": "BS110012",
-        "name": "پک هدیه 2 خاتم زعفران و هل بینا",
-        "price": "125000",
+        "name": "زعفران خاتم بینا - 2 گرم",
+        "url": "زعفران-خاتم-بینا-2-گرم",
+        "price": "170000",
         "img": "/mag/wp-content/uploads/2022/05/saffron-khatam.jpg",
         "thumbnails":[
             "/mag/wp-content/uploads/2020/09/sargol-khatam-4.6-saffron-2.jpg"
