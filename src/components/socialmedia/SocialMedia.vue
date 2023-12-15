@@ -1,22 +1,13 @@
-<script>
+<script setup lang="ts">
   import { faTwitter, faInstagram, faLinkedin, faWhatsapp, faTelegram } from '@fortawesome/free-brands-svg-icons';
   import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
   
-  export default {
-    name: 'SocialMedia',
-    components: {
-      FontAwesomeIcon,
-    },
-    data() {
-      return {
-        twitterUrl: 'https://twitter.com/binasaffron',
-        instagramUrl: 'https://instagram.com/binasaffron/',
-        linkedinUrl: 'https://linkedin.com/company/binasaffron/',
-        whatsappUrl: 'https://api.whatsapp.com/message/WZCEHFNAUZA5G1?autoload=1&app_absent=0',
-        telegramUrl: 'https://t.me/binasaffron',
-      };
-    },
-  };
+    const twitterUrl= 'https://twitter.com/binasaffron';
+    const instagramUrl= 'https://instagram.com/binasaffron/';
+    const linkedinUrl= 'https://linkedin.com/company/binasaffron/';
+    const whatsappUrl= 'https://api.whatsapp.com/message/WZCEHFNAUZA5G1?autoload=1&app_absent=0';
+    const telegramUrl= 'https://t.me/binasaffron';
+
   </script>
 <template>
   <div class="flex space-x-4 my-4">
